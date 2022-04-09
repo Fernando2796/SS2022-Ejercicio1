@@ -4,3 +4,30 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+
+.main, .info, .image, .description, .hobbie{
+    display: grid;
+}
+.main{
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto;
+    background-color: yellowgreen;
+}
+
+.info{
+    
+    background-color: aqua;
+}
+
+.image{
+    padding: 3rem;
+}
+
+img{
+     
+}
+
+.description{
+    
+    background-color: blue;
+}
